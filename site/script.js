@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   try {
     const response = await fetch(
-      https://resumefunctionapp-ahhbbyayd7csf4e6.australiaeast-01.azurewebsites.net/api/GetVisitorCount
+      "https://resumefunctionapp-ahhbbyayd7csf4e6.australiaeast-01.azurewebsites.net/api/GetVisitorCount"
     );
 
     const data = await response.json();
